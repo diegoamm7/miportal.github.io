@@ -9,6 +9,9 @@ body{
     font-weight: 400;
     background: #DBE2EF;
 }
+main{
+    height: 60vh;
+}
 *{
     box-sizing: border-box;
 }
@@ -37,7 +40,7 @@ nav ul{
     margin: 20px;
     list-style: none;
     justify-content: center;
-
+    padding: 0px;
 }
 
 nav ul li{
@@ -52,9 +55,10 @@ nav ul li a img{
 .informacion{
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 .informacion p{
-    max-width: 65ch;
+    max-width: 60ch;
     color: #222831;
 }
 .botones{
