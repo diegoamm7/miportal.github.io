@@ -19,6 +19,8 @@ header{
     background: #143F6B;
     text-align: center;
     display: block;
+    margin-bottom: 0px;
+    padding: 20px;
 }
 .imagen img{
     align-items: center;
@@ -35,9 +37,12 @@ header{
     margin: 0px;
     font-weight: 400;
 }
+nav{
+    background: #143F6B;
+}
 nav ul{
     display: flex;
-    margin: 20px;
+    margin-top: 0px;
     list-style: none;
     justify-content: center;
     padding: 0px;
@@ -65,6 +70,10 @@ nav ul li a img{
     display: flex;
     justify-content: center;
     margin: 30px;
+}
+.botones ul{
+    padding: 0px;
+    text-align: center;
 }
 .botones li{
     list-style: none;
@@ -94,18 +103,3 @@ footer p{
     margin: 15px;
 }
 
-/*
-.btn:link, .btn:visited{
-    display: inline-block;
-    background-color: #8453c2;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    border: 1px solid #4B4453;
-    padding: 8px 12px ;
-    border-radius: 8px;
-}
-.btn:hover, .btn:active{
-    background-color: #41137d;
-    
-}
